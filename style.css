@@ -191,8 +191,8 @@ ion-icon:hover {
   height: 100%;
   width: 80%;
   display: flex;
-  align-items: flex-end;
-  margin-bottom: 3em;
+  align-items: flex-start;
+  margin: 3em;
   justify-content: space-between;
 }
 
