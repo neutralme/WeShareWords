@@ -165,6 +165,7 @@ ion-icon:hover {
   overflow: hidden scroll;
   backdrop-filter: blur(2em);
 }
+
 .drawer .close {
   position: absolute;
   font-size: 2em;
@@ -173,26 +174,30 @@ ion-icon:hover {
   border-radius: 50%;
   top: 50%;
 }
+
 .drawer .avatar {
   font-size: 15rem;
 }
+
 .drawer .name {
   font-size: 1.5em;
   color: #515FFF;
 }
+
 .drawer .subname {
   font-size: .9em;
   font-weight: 800;
   color: grey;
   margin-bottom: 5em;
 }
+
 .drawer .links {
   color: #515FFF;
   height: 100%;
   width: 80%;
   display: flex;
   align-items: flex-start;
-  margin: 3em;
+  margin-top: 100%;
   justify-content: space-between;
 }
 
@@ -207,9 +212,11 @@ ion-icon:hover {
   transition-duration: .3s;
   color: grey;
 }
+
 .drawer button.active {
   border-right: 4px solid #FF3131;
 }
+
 .drawer button::before {
   content: '▪️';
 }
@@ -242,12 +249,12 @@ ion-icon:hover {
   border: none;
   border-radius: .1em;
   width: 100%;
-  }
+}
 
 .search ion-icon {
   font-size: 1.5em;
   background-color: #FFFFFF;
-  border-radius:  0 .1em .1em 0;
+  border-radius: 0 .1em .1em 0;
   padding: 6px;
   border-left: 2px solid #385333;
 }
